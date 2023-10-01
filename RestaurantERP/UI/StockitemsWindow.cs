@@ -76,6 +76,7 @@ namespace RestaurantERP.UI
                 inputExpirationDate = DateTime.Now;
             }
 
+
             if (comboBoxStockpile.SelectedItem != null)
             {
                 inputStockpile = comboBoxStockpile.SelectedValue as Stockpile;
